@@ -17,6 +17,7 @@
   <input type="text" name="first_name" class="form-control mb-3 StrpieElement StrpieElement--empty" placeholder="First Name">
   <input type="text" name="last_name" class="form-control mb-3 StrpieElement StrpieElement--empty" placeholder="Last Name">
   <input type="email" name="email" class="form-control mb-3 StrpieElement StrpieElement--empty" placeholder="Email Address">
+  <h6> Enter 4242 4242 4242 4242 with any expiration and CVC for testing.</h6>
     <div id="card-element" class="form-control">
       <!-- A Stripe Element will be inserted here. -->
     </div>

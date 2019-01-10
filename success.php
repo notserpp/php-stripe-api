@@ -4,6 +4,10 @@ if(!empty($_GET['tid'] && !empty($_GET['product']))) {
 
     $tid = $GET['tid'];
     $product = $GET['product'];
+    $first_name = $GET['first_name'];
+    $last_name = $GET['last_name'];
+    $email = $GET['email'];
+    
 }else{
     header('Location: index.php');
 }
