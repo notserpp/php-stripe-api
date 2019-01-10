@@ -15,8 +15,6 @@
     $email = $POST['email'];
     $token = $POST['stripeToken'];
 
-    echo $token;
-
     //Create Customer using Stripe
     $customer = \Stripe\Customer::create(array(
         "email" => $email,
